@@ -1,0 +1,710 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #F3FFF4;
+}
+
+#hero {
+    height: 100vh;
+    width: 100%
+    
+}
+/* 
+#hero .container{
+    background: url(img/hero.png);
+} */
+
+.hero-tagline h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 126px;
+    line-height: 109.4%;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #1A1A1A;
+}
+
+.hero-tagline p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 250%;
+    letter-spacing: 0.02em;
+    color: #555555;
+
+}
+
+.button-lg-dark {
+    width: 228px;
+    height: 77px;
+    background: #191919;
+    color: white;
+    border: none;
+}
+
+
+#feutured {
+    padding: 100px 0;
+}
+
+#feutured .row h4 {
+    width: 383px;
+    height: 51px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    text-transform: capitalize;
+
+    color: #1A1A1A;
+}
+
+#feutured .row a {
+    width: 143px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+    color: #191919;
+    text-decoration: none;
+}
+
+.card-f img {
+    width: 100%;
+    height: 100%;
+}
+
+.hover-fet {
+    width: 100%;
+    height: 65px;
+    background: #FFFFFF;
+    border: none;
+}
+
+.hover-fet .i-f {
+    width: 16px;
+    height: 16px;
+}
+
+.hover-fet a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-f .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+.card-f .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.b-card h5 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 34px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #191919;
+
+}
+
+.b-card p {
+    font-family: 'Inter';
+    font-size: 26px;
+    line-height: 41px;
+    letter-spacing: -0.04em;
+    text-transform: capitalize;
+
+    color: #6995B1;
+}
+
+#sec {
+    padding-bottom: 100px;
+
+}
+
+.sec1 {
+    width: 100%;
+}
+
+.sec2 {
+    width: 100%;
+}
+
+.isian-1 {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    width: 270px;
+}
+
+.isian-1 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #282828;
+}
+
+.isian-1 h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+    /* identical to box height */
+
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+
+    color: #1A1A1A;
+
+}
+
+.isian-1 a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    margin-bottom: 30px;
+    text-decoration: none;
+}
+
+.isian-1 h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 21px;
+    text-transform: capitalize;
+
+    color: #191919;
+}
+
+.isian-2 {
+    position: absolute;
+    top: 23%;
+    left: 43%;
+    width: 250px;
+}
+
+.isian-2 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: #282828;
+}
+
+.isian-2 h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #1A1A1A;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.isian-2 a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    text-decoration: none;
+}
+
+.isian-3 {
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    width: 250px;
+}
+
+.isian-3 p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    color: #282828;
+
+}
+
+.isian-3 h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 65px;
+    letter-spacing: -0.02em;
+    text-transform: capitalize;
+    color: #1A1A1A;
+    margin-top: -20px;
+    margin-bottom: 0px;
+}
+
+.isian-3 a {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #555555;
+    text-decoration: none;
+}
+
+/* discont */
+
+#discont h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 51px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+
+    color: #1A1A1A;
+}
+
+#discont .container {
+    padding: 0px 100px;
+}
+
+#discont p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 230%;
+    letter-spacing: 0.02em;
+    color: #555555;
+}
+
+.button-subscribe {
+    width: 150px;
+    height: 50px;
+    background: #191919;
+    color: #fff;
+    font-size: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    /* identical to box height */
+
+    text-transform: capitalize;
+}
+
+/* products */
+
+#products {
+    margin-top: 100px;
+}
+
+#products h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #1A1A1A;
+}
+
+.products-tagline a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #999999;
+    text-decoration: none;
+}
+
+.products-view-all a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #000;
+    text-decoration: none;
+}
+
+.card-product img {
+    width: 100%;
+    height: 100%;
+}
+
+.c{
+    padding: 15px;
+}
+
+.c:hover {
+    border: 1px solid #919090;
+    cursor: pointer;
+}
+
+/* quote */
+#quote {
+    padding: 100px 0px;
+}
+
+#quote p {
+    padding-right: 100px;
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+
+    color: #1F1F1F;
+}
+
+#quote span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+
+    color: #191919;
+
+}
+
+/* flash */
+
+#flash h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #1A1A1A;
+}
+
+#flash p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 31px;
+    text-align: center;
+
+    color: #191919;
+
+}
+
+
+.card-product .flash-discont {
+    padding: 0px;
+    width: 60px;
+    height: 30px;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+    background: #6995B1;
+}
+
+#flash .card-product .flash-discont p{
+    font-size: 14px;
+    color: #fff;
+    
+}
+
+#flash .b-card p{
+    text-align: left;
+}
+
+#flash .b-card span {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: -0.04em;
+    text-decoration-line: line-through;
+    text-transform: capitalize;
+    color: #BBBBBB;
+}
+
+/* hero kedua */
+#hero-dua .container {
+    padding: 100px 0px;
+}
+
+.hero-dua-tagline {
+    position: absolute;
+    width: 50%;
+    left: 40%;
+    top: 30%;
+}
+
+.hero-dua-tagline h6 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+
+    color: #282828;
+}
+
+.hero-dua-tagline h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    text-transform: capitalize;
+    color: #1A1A1A;
+}
+
+.hero-dua-tagline p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 210%;
+    /* or 38px */
+
+    letter-spacing: 0.02em;
+
+    color: #555555;
+}
+
+.hero-dua-tagline a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: right;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #191919;
+}
+
+/* quotes-dua */
+
+#quote-dua {
+    padding: 0px 0px;
+}
+
+#quote-dua h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #1A1A1A;
+}
+
+#quote-dua p {
+    font-family: 'Raleway';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #1F1F1F;
+    text-align: center;
+}
+
+#quote-dua span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    text-transform: capitalize;
+    color: #191919;
+
+}
+
+/* jurnal */
+
+#jurnal {
+    padding: 100px 0px;
+}
+
+#jurnal .col-4:hover{
+    border: 1px solid #919090;
+    cursor: pointer;
+}
+
+.tgl h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: #6995B1;
+    margin-bottom: -8px;
+}
+
+.tgl p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: -8px;
+    color: #8B8B8B;
+}
+
+.jurnal-tagline h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #191919;
+    margin-top: 10px;
+}
+
+.jurnal-tagline p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #999999;
+}
+
+/* folllow */
+
+#follow {
+    padding-bottom: 50px;
+}
+
+#follow h1 {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: capitalize;
+
+    color: #1A1A1A;
+}
+
+#follow p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #555555;
+
+}
+
+#follow .overlay {
+    background-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+    transition: all ease-in-out .3s;
+}
+
+#follow .overlay:hover {
+    background-color: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+#follow .icon-ig {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    cursor: pointer;
+}
+
+/* about */
+#about {
+    padding: 50px 0px;
+}
+
+#about p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 22px;
+
+    text-transform: capitalize;
+
+    color: #191919;
+}
+
+/* ul-li */
+#ul-li {
+    padding-bottom: 50px;
+}
+
+#ul-li h3 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 31px;
+    text-transform: capitalize;
+
+    color: #1A1A1A;
+}
+
+#ul-li li,
+p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 230%;
+    text-align: justify;
+
+    letter-spacing: 0.02em;
+
+    color: #555555;
+}
+
+.ultra {
+    width: 270px;
+}
+
+/* footer */
+footer p {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #959595;
+}
